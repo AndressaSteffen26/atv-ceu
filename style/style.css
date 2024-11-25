@@ -1,0 +1,48 @@
+/*----------TOPO----------*/
+header {
+    margin: 2vw 2vw 2vw 2vw;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav div ul {
+    display: flex;
+}
+header nav div ul li {
+    padding: 0 20px 0 20px;
+}
+header nav div ul li a.home {
+    color: #1090CB;
+}
+header nav div ul li a.contact {
+    color: white;
+    background: #1090CB;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+}
+main {
+    border-top: #C4C4C4 solid 1px;
+    background: rgba(16, 144, 203, 0.1);
+}
+main section.experienced {
+    display: flex;
+    justify-content: space-between;
+}
+main section.experienced div.text {
+    padding: 4vw 4vw 4vw 4vw;
+}
+main section.experienced div.text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 0 0 2vw 0;
+}
+main section.experienced div.text h1 span {
+    color: #1090CB;
+}
+main section.experienced div.text p {
+    font-size: 1.5rem;
+    color: #5C5C5C;
+    line-height: 30px;
+}
